@@ -1,7 +1,7 @@
 /* pengu-product-section */
 .pengu-product-section,
 .pengu-product-category-section,
-.pengu-bestseller-section {
+.pengu-bestseller-section,.shop-section {
     padding-bottom: 60px;
 
     @media (max-width:991px) {
@@ -325,6 +325,9 @@
         @media (max-width:399px) {
             object-fit: cover;
             width: 100%;
+            padding-right: 0;
+            padding-top: 40px;
+            padding-bottom:20px;
         }
 
         .content {
@@ -434,7 +437,7 @@
                 @media (max-width:575px) {
                     font-size: 25px;
                     line-height: 30px;
-                    padding: 0 70px;
+                    padding: 0 8px;
                 }
 
                 @media (max-width:399px) {
