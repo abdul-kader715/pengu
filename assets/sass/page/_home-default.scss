@@ -310,7 +310,8 @@
 }
 
 /* pengu-banner-section */
-.pengu-banner-section,.pengu-banner-section-s2 {
+.pengu-banner-section,
+.pengu-banner-section-s2 {
 
     .banner-wrap {
         padding-top: 140px;
@@ -320,10 +321,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-
-        @media (max-width:767px) {
-            padding: 50px 0;
-        }
 
         @media (max-width:399px) {
             object-fit: cover;
@@ -335,6 +332,8 @@
             padding-left: 130px;
             position: relative;
             z-index: 0;
+
+          
 
             @media (max-width:1399px) {
                 padding-left: 80px;
@@ -429,7 +428,7 @@
                 }
 
                 @media (max-width:767px) {
-                    padding: 0 90px;
+                    padding: 0 20px;
                 }
 
                 @media (max-width:575px) {
