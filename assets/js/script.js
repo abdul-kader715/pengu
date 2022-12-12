@@ -112,6 +112,15 @@
         $('.payment-name').removeClass('active')
     });
 
+    // review-active
+
+    $(".write-review-btn").on("click", function () {
+        $('.rating-bottom').toggleClass('active');
+    });
+    $(".review-btn-btn").on("click", function () {
+        $('.rating-bottom').removeClass('active');
+    });
+
     // imageZoom effect
     $('.product-active .item').zoom();
 
@@ -775,6 +784,9 @@
     })
 
 
+
+
+
     /*------------------------------------------
         = CONTACT FORM SUBMISSION
     -------------------------------------------*/
@@ -790,6 +802,12 @@
 
                 phone: "required",
 
+                adress: "required",
+
+                service: "required",
+
+                note: "required",
+
                 subject: {
                     required: true
                 }
@@ -800,7 +818,9 @@
             messages: {
                 name: "Please enter your name",
                 email: "Please enter your email address",
-                phone: "Please enter your phone number",
+                adress: "Please enter your adress ",
+                service: "Please enter your service ",
+                note: "Please enter your text ",
                 subject: "Please select your contact subject"
             },
 

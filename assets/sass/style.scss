@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Theme Name:     Canun – Lawyer and Attorney HTML Template
+Theme Name:     Pengu - eCommerce HTML5 Template
 Version:        1.0.0
 -------------------------------------------------------------------*/
 
@@ -19,48 +19,36 @@ Version:        1.0.0
 
 3. content
 	3.1 wpo-hero-slider
-	3.2 wpo-features-section
-	3.3 wpo-contact-section
-	3.4 wpo-service-section
-	3.5 wpo-case-section
-	3.6 wpo-testimonials-section
-	3.7 wpo-team-section
-	3.8 wpo-consultancy-section
-	3.9 wpo-blog-section
+	3.2 pengu-product-section
+	3.3 pengu-banner-section
+	3.4 pengu-product-category-section
+	3.5 pengu-spacing-section
+	3.6 wpo-blog-section
 
 4. wpo-footer
 
 5. Home-style-2
-   5.1	wpo-features-section-s2
-   5.2	wpo-about-section
-   5.3	wpo-service-section-s2
-   5.4	wpo-fun-fact-section
+   5.1 pengu-categorie-section
+   5.2 pengu-banner-section-s2
+   5.3 pengu-winter-section 
 
-6. wpo-Attorney-single
+6. shop-section
 
-7. wpo-service-single-section
+7. product-single-section
 
-8. wpo-case-section
+8. wpo-cart-page-style
 
-9. wpo-cart-page-style
+9. wpo-checkout-page-style
 
-10. wpo-checkout-page-style
+10. wpo-blog-pg-section
 
-11. wpo-shop-page
+11. wpo-blog-single-section
 
-12. wpo-shop-single-page
+12 Auth-page-style
 
-13. wpo-pricing-page
+13. wpo-contact-pg-section
 
-14. wpo-faq-page
-
-15. wpo-blog-pg-section
-
-16. wpo-blog-single-section
-
-17. wpo-contact-pg-section
-
-18. error-404-section
+14. error-404-section
 
 ----------------------------------------------------------------*/
 
@@ -100,6 +88,7 @@ Version:        1.0.0
 
 // page
 @import "page/home-default";
+
 @import "page/home-style2";
 
 @import "page/shop";
@@ -107,11 +96,18 @@ Version:        1.0.0
 @import "page/product-single";
 
 @import "page/cart";
+
 @import "page/checkout";
 
-@import "page/_blog";
+@import "page/blog";
 
-@import "page/_blog-single";
+@import "page/blog-single";
+
+@import "page/auth-page";
+
+@import "page/contact";
+
+@import "page/error-404";
 
 
 

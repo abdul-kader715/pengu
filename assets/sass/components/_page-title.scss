@@ -1,13 +1,12 @@
 // page-title
 .wpo-page-title{
     background: url(../images/page-title-s2.jpg) no-repeat center top / cover;
-    min-height: 500px;
+    min-height: 400px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
-	padding-top: 75px;
 
 	@media(max-width: 767px) {
 		min-height: 300px;
