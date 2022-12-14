@@ -1,7 +1,9 @@
 /*3.2 pengu-product-section */
 .pengu-product-section,
 .pengu-product-category-section,
-.pengu-bestseller-section,.shop-section {
+.pengu-bestseller-section,
+.shop-section,
+.pengu-product-category-section-s2 {
     padding-bottom: 60px;
 
     @media (max-width:991px) {
@@ -328,7 +330,7 @@
             width: 100%;
             padding-right: 0;
             padding-top: 40px;
-            padding-bottom:20px;
+            padding-bottom: 20px;
         }
 
         .content {
@@ -337,7 +339,7 @@
             position: relative;
             z-index: 0;
 
-          
+
 
             @media (max-width:1399px) {
                 padding-left: 80px;
@@ -499,7 +501,8 @@
 }
 
 /*3.4 pengu-product-category-section */
-.pengu-product-category-section {
+.pengu-product-category-section,
+.pengu-product-category-section-s2 {
 
     .category-wrap {
 
