@@ -5915,6 +5915,20 @@ img {
     font-size: 15px;
   }
 }
+.pengu-about-section.pengu-about-section-s2 {
+  margin-top: -50px;
+  padding-bottom: 0;
+}
+@media (max-width: 991px) {
+  .pengu-about-section.pengu-about-section-s2 {
+    margin-top: -35px;
+  }
+}
+@media (max-width: 767px) {
+  .pengu-about-section.pengu-about-section-s2 {
+    margin-top: 0;
+  }
+}
 
 @-webkit-keyframes rota {
   from {

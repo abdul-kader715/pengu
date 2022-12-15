@@ -430,6 +430,17 @@
             }
         }
     }
+    &.pengu-about-section-s2{
+        margin-top: -50px;
+        padding-bottom: 0;
+        @media (max-width:991px) {
+           margin-top: -35px;
+        }
+        @media (max-width:767px) {
+           margin-top: 0;
+        }
+    }
+
 }
 
 @keyframes rota {
