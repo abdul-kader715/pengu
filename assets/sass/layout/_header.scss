@@ -492,7 +492,7 @@
 	}
 
 	.wpo-site-header .header-right {
-		right: -30px;
+		right: -18px;
 	}
 }
 
@@ -1482,10 +1482,10 @@
 
 	.wpo-site-header {
 		position: unset;
-
 		@media (min-width: 991px) {
 			padding: 0 100px;
 		}
+		
 
 		#navbar {
 
@@ -1503,7 +1503,7 @@
 		.header-right {
 
 			.header-search-form-wrapper{
-				@media (max-width:399px) {
+				@media (max-width:575px) {
 					display: none;
 				}
 			}
@@ -1538,5 +1538,21 @@
 
 	.wpo-site-header{
 		position: absolute;
+		padding: 0 200px;
+		@media (max-width: 1799px) {
+			padding: 0 180px;
+		}
+		@media (max-width: 1699px) {
+			padding: 0 160px;
+		}
+		@media (max-width: 1599px) {
+			padding: 0 140px;
+		}
+		@media (max-width: 1399px) {
+			padding: 0 80px;
+		}
+		@media (max-width: 1199px) {
+			padding: 0;
+		}
 	}
 }

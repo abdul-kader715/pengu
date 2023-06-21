@@ -857,6 +857,7 @@
 	@media (max-width:1199px) {
 		height: 800px;
 	}
+
 	@media (max-width:991px) {
 		height: 700px;
 	}
@@ -869,6 +870,7 @@
 		@media (max-width:1199px) {
 			height: 800px;
 		}
+
 		@media (max-width:991px) {
 			height: 700px;
 		}
@@ -880,6 +882,7 @@
 
 		h2 {
 			margin-bottom: 20px;
+
 			@media (max-width:991px) {
 				margin-bottom: 15px;
 			}
@@ -899,6 +902,7 @@
 			@media (max-width:991px) {
 				margin-bottom: 30px;
 			}
+
 			@media (max-width:499px) {
 				display: block;
 			}
@@ -914,24 +918,29 @@
 					@media (max-width:991px) {
 						width: 20%;
 					}
+
 					@media (max-width:499px) {
 						width: 35%;
 						display: inline-block;
 					}
 				}
+
 				&:nth-child(2) {
 					@media (max-width:991px) {
 						width: 30%;
 					}
+
 					@media (max-width:499px) {
 						width: 60%;
 						display: inline-block;
 					}
 				}
+
 				&:nth-child(3) {
 					@media (max-width:1399px) {
 						width: 50%;
 					}
+
 					@media (max-width:499px) {
 						width: 100%;
 					}
@@ -944,9 +953,11 @@
 						font-size: 20px;
 						color: #888888;
 						margin-bottom: 15px;
+
 						@media (max-width:991px) {
 							margin-bottom: 10px;
 						}
+
 						@media (max-width:499px) {
 							margin-bottom: 5px;
 							font-size: 18px;
@@ -957,9 +968,11 @@
 						font-weight: 700;
 						font-size: 25px;
 						color: #393D46;
+
 						@media (max-width:991px) {
 							font-size: 20px;
 						}
+
 						@media (max-width:499px) {
 							font-size: 15px;
 						}
@@ -1028,11 +1041,16 @@
 						@media (max-width:499px) {
 							margin-top: 10px;
 						}
+
 						.size-item {
 
 							.button-group {
 								display: inline-block;
 								margin-left: -19px;
+
+								@media (max-width:575px) {
+									margin-left: -13px;
+								}
 
 								.size1 {
 									opacity: 0;
@@ -1081,9 +1099,11 @@
 			.theme-btn {
 				border-radius: 10px;
 				border: 1px solid transparent;
+
 				@media (max-width:991px) {
 					padding: 10px 35px;
 				}
+
 				&::after {
 					border-radius: 10px;
 					opacity: 0;
@@ -1103,15 +1123,19 @@
 				border: 1px solid #666666;
 				border-radius: 10px;
 				margin-right: 15px;
+
 				@media (max-width:991px) {
 					padding: 10px 35px;
 				}
+
 				@media (max-width:767px) {
 					font-size: 14px;
 				}
+
 				@media (max-width:499px) {
 					margin-bottom: 10px;
 				}
+
 				&::after {
 					border-radius: 10px;
 				}
@@ -1159,13 +1183,15 @@
 			right: -100px;
 			top: 60%;
 		}
+
 		@media (max-width:991px) {
 			width: 90%;
 			height: 90%;
 			right: -200px;
 			top: 70%;
 		}
-		img{
+
+		img {
 			@media (max-width:991px) {
 				max-width: 80%;
 			}
@@ -1195,6 +1221,7 @@
 			height: 450px;
 			top: 25%;
 		}
+
 		@media (max-width:991px) {
 			width: 350px;
 			height: 350px;
